@@ -1,0 +1,97 @@
+<<03-modulo_html_css>> <<Youtube: Curso em Vídeo>>
+
+✦Índice das Informações✦
+▷
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: O iframe ainda pode ser usado?
+
+1- O elemento HTML <iframe>
+representa um contexto de navegação aninhado, efetivamente incorporando outra página HTML para a página 
+atual
+<h1>ChatGPT</h1>
+    <p>
+      Essa é IA (Inteligência Artificial) mais avançada do mundo atualmente:
+      <iframe src="https://chat.openai.com/chat" frameborder="0"></iframe>
+    </p>
+
+Obs: O conteúdo que estiver entre a tag <iframe> será exibido caso onaveagdor não seja compatível com 
+a tag, por isso uma ótima opção é colocar o link do conteúdo que seria exibido
+Ex:
+<h1>ChatGPT</h1>
+    <p>
+      Essa é IA (Inteligência Artificial) mais avançada do mundo atualmente:
+      <iframe src="https://chat.openai.com/chat" frameborder="0"><a href=""></iframe>
+    </p>
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Navegação no iframe
+
+02- Com o Iframe podemos adiocionar diferentes páginas dentro dele dependendo do que você quer que apareça
+Para isso você tera que criar links e adionar a propriedade "target" neles, dentro de target você irá 
+adiconar o nome que você colocará no iframe, para adionar um nome(não é id ou class) ao iframe 
+basta adionar a propriedade "name"
+<ul>
+      <li>
+        <a href="arquivos_iframes/01-index.html" target="iframe1">Página 1</a>
+      </li>
+      <li>
+        <a href="arquivos_iframes/02-index.html" target="iframe1">Página 2</a>
+      </li>
+      <li>
+        <a href="arquivos_iframes/03-index.html" target="iframe1">Página 3</a>
+      </li>
+    </ul>
+
+<iframe src="" frameborder="0" name="iframe1">
+      <p>ERRO</p>
+    </iframe> 
+
+
+03- Propriedade srcdoc=""
+Com ela você pode usar html dentro da tag inframe e com isso adionar um conteúdo que será exibido de 
+emedianto ao usuário 
+Ex:
+<iframe
+      srcdoc="<h1>Teste</h1><p>Teste do teste</p>"
+      frameborder="0"
+      name="iframe1"
+    >
+      <p>ERRO</p>
+    </iframe>
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
