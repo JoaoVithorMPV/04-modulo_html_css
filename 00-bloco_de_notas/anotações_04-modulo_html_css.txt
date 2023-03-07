@@ -70,11 +70,37 @@ Ex:
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-► Aula:
+► Aula: Tornando iframes mais seguros
 
+04- Como proteger sua página do iframe 
+Para isso nós usamos o sandbox="sandbox" ele irá proteger a página onde um iframe é adicionado, de 
+maneira que ele diz o que o conteúdo do iframe pode fazer ou não. O conteúdo envolvido pelo sandbox é 
+separado do conteúdo da página onde está o iframe, obtendo menos privilégios, porém também é possível 
+permitir algumas excessões, para isso vocÊ deve adicionar outro comando dentro do sandbox, por ex:
+allow-same-origin
+allow-forms
+allow-script
+Etc...
+Ex prático:
+<iframe
+      src="arquivos_iframes/01-iframe.html"
+      frameborder="1"
+      sandbox="sandbox"
+      referrerpolicy="no-referrer"
+    >
 
+05- referrerpolicy="no-referrer"
+Essa propriedade limita o envio de dados do usuário para a página enviada pro iframe (cookies)
+Ex:
+<iframe
+      src="arquivos_iframes/01-iframe.html"
+      frameborder="1"
+      sandbox="sandbox"
+      referrerpolicy="no-referrer"
+    >
 
-
+06- Informção
+Com o iframes podemos incorporar vídeos do youtube, mapas do google maps, slides etc... em nossa página
 
 
 
