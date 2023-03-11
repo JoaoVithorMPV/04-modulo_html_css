@@ -104,7 +104,20 @@ Com o iframes podemos incorporar vídeos do youtube, mapas do google maps, slide
 
 
 
+<<Fim da Aula>>
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Métodos GET e POST para formulários
+
+07- Diferença entre o método de envio de dados GET e POST (method="GET" method="POST")
+✦O método de envio GET faz com quie as informações fornecidas pelo cliente apareça diferetamente na URL,
+enquanto o método POST faz com que as informações fiquem um pouco mais escondidas, para acessa-las 
+é preciso acessar "Network" no DevTools e ir no arquivo de chamada > clicar em "Header" aparecerá 
+as informações fornecidas
+✦Formulários com o envio GET são compartilhaveis 
+✦GET só consegue enviar até 3000 caracteres
+✦Não use GET qiando for solicidado dados sensíveis ao cliente, como senha e cartão de crédito
 
 
 
