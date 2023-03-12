@@ -159,7 +159,87 @@ step="0.1"
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+► Aula: Formulários com telefone e e-mail
+
+09- EStudar RegEx!
+
+10- Tag: <fieldset> 
+É usado para agrupar elementos, assim como labels, dentro de um formulário web
+Ex:
+<fieldset>
+        <legend>Dados pessoais</legend>
+        <p>
+          <label for="inome">Nome:</label>
+          <input
+            id="inome"
+            type="text"
+            placeholder="nome completo"
+            minlength="10"
+            maxlength="40"
+            required
+            autocomplete="username"
+          />
+        </p>
+        <p>
+          <label for="imedia">Média:</label>
+          <input type="number" id="imedia" step="0.1" value="5" required />
+        </p>
+        <p>
+          <label for="iperiodo">Período letivo</label>
+          <input id="iperiodo" type="month" required />
+        </p>
+</fieldset>
+
+11- Tag <legend>
+representa um rótulo para o conteúdo do seu ancestral, só pode ser usado um a cada <fieldset> usado
+e ele apenas funciona quando está dentro da tag fieldset
+Ex:
+Tem um ex logo acima
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Elementos color, range e file em HTML
+
+12- <input type="file" />  
+Um controle que permite ao usuário selecionar um arquivo (Só fuinciona com o método de envio POST)
+
+13- <input type="range" />
+deixam o usuário especificar um valor numérico que não deve ser inferior a um determinado valor, e não mais do
+que um valor máximo especificado
+
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 ► Aula:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
