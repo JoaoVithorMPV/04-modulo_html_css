@@ -118,19 +118,48 @@ as informações fornecidas
 ✦Formulários com o envio GET são compartilhaveis 
 ✦GET só consegue enviar até 3000 caracteres
 ✦Não use GET qiando for solicidado dados sensíveis ao cliente, como senha e cartão de crédito
+✦O método GET não é compátivel com o envio de arquivos/fotos, para isso deve se usar o POST
 
 
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Elementos number, month, date e time em formulários HTML 
+
+08- propriedades interessantes para a criação de formularios
+✦autocomplete
+Serve para realziar preenchimento automático de um campo de informações
+Variações: (autocomplete="on") (autocomplete="username")
+Ex:
+<form action="GET" autocomplete="on">
+
+✦placeholder
+É um atributo do HTML que cumpre a função de fornecer ao usuário uma dica que descreve o valor 
+esperado em um dado campo de entrada
+Ex:
+placeholder="nome completo"
+
+✦required
+Obriga o preenchimento de um determinado campo de informações 
+
+✦minlength/maxlength
+Determina a quantidade mínima e máxixa de caracteres em um campo de informações
+Ex:
+minlength="10"
+maxlength="40"
+
+✦step
+É usado para definir os incrementos que serão aceitos em uma entrada.
+Ex:
+step="0.1"
 
 
+<<Fim da Aula>>
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-
-
-
-
-
-
-
+► Aula:
 
 
 

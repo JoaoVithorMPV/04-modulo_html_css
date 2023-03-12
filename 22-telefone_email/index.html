@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formulário de Teste</h1>
+    <form action="GET" autocomplete="on">
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <p>
+          <label for="inome">Nome:</label>
+          <input
+            id="inome"
+            type="text"
+            placeholder="nome completo"
+            minlength="10"
+            maxlength="40"
+            required
+            autocomplete="username"
+          />
+        </p>
+        <p>
+          <label for="imedia">Média:</label>
+          <input type="number" id="imedia" step="0.1" value="5" required />
+        </p>
+        <p>
+          <label for="iperiodo">Período letivo</label>
+          <input id="iperiodo" type="month" required />
+        </p>
+        <p>
+          <label for="idata">Data da Prova</label>
+          <input id="idata" type="date" required value="2020-07-14" />
+        </p>
+        <p>
+          <label for="itime">Horário da prova</label>
+          <input id="itime" type="time" required />
+        </p>
+        <p>
+          <input type="submit" value="Enviarr" />
+          <input type="reset" value="Limpar" required />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
