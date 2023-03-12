@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="POST">
+      <fieldset>
+        <legend>DADOS</legend>
+        <p>
+          <label for="iest">Estado</label>
+          <select name="" id="iest">
+            <option value="" selected>--Selecione--</option>
+            <optgroup label="Região Sudeste">
+              <option value="MG">Minas Gerais</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="SP">São Paulo</option>
+            </optgroup>
+
+            <optgroup label="Região Nordeste">
+              <option value="MA">Maranhão</option>
+              <option value="PE">Pernambuco</option>
+              <option value="RN">Rio Grande do Norte</option>
+            </optgroup>
+          </select>
+        </p>
+        <p>
+          <label for="iprof">Profissão</label>
+          <input
+            type="text"
+            placeholder="Informe sua profissão"
+            list="ilista"
+          />
+          <datalist id="ilista">
+            <option>A1</option>
+            <option>A2</option>
+            <option value="a3">A3</option>
+            <option value="a4">A4</option>
+          </datalist>
+        </p>
+
+        <p>
+          <label for="imen">Mensagem</label>
+          <br />
+          <textarea
+            name=""
+            id="imen"
+            cols="30"
+            rows="10"
+            placeholder="Fale um pouco mais sobre você..."
+          ></textarea>
+        </p>
+
+        <p>
+          <input type="submit" />
+          <input type="reset" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>

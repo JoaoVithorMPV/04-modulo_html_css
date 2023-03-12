@@ -216,15 +216,71 @@ que um valor máximo especificado
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+► Aula: Select, datalist e textarea em HTML
+
+14- <select> <option> <optgroup> selected
+select: representa um controle que apresenta um menu de opções. As opções dentro do menu são representadas pelo 
+elemento <option> , que podem ser agrupados por elementos <optgroup>, dentro do elemento optgroup podemos 
+adicionar um label. selected serve para pré definir uma das opções. O value="" irá responsável por enviar a
+indormação, o que for enviado será lido o que estiver dentro do value e não di option 
+Ex prático:
+        <p>
+          <label for="iest">Estado</label>
+          <select name="" id="iest">
+            <option value="" selected>--Selecione--</option>
+            <optgroup label="Região Sudeste">
+              <option value="MG">Minas Gerais</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="SP">São Paulo</option>
+            </optgroup>
+
+            <optgroup label="Região Nordeste">
+              <option value="MA">Maranhão</option>
+              <option value="PE">Pernambuco</option>
+              <option value="RN">Rio Grande do Norte</option>
+            </optgroup>
+</select>
+
+15- datalist
+Mostra uma lista de elementos predefinidos como opção para um caixa de entrada de texto
+Ex:
+<p>
+          <label for="iprof">Profissão</label>
+          <input
+            type="text"
+            placeholder="Informe sua profissão"
+            list="ilista"
+          />
+
+          <datalist id="ilista">
+            <option>A1</option>
+            <option>A2</option>
+            <option value="a3">A3</option>
+            <option value="a4">A4</option>
+          </datalist>
+</p>
+
+OBS: lembre-se de conecta-los por uma id 
+
+16- <textarea></textarea>
+Representa um controle de edição para uma caixa de texto, útil quando você quer permitir ao usuário informar 
+um texto extenso em formato livre, como um comentário
+Ex:
+<textarea
+            name=""
+            id="imen"
+            cols="30"
+            rows="10"
+            placeholder="Fale um pouco mais sobre você..."
+></textarea> 
+
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 ► Aula:
-
-
-
-
-
-
-
-
 
 
 
