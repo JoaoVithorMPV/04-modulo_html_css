@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* Aparelho deitado (landscape) */
+
+body {
+  background-image: url(../../29-impressora_mq/imagens/cev-landscape.jpg);
+  background-position: left bottom;
+}

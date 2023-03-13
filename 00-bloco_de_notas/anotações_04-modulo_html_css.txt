@@ -347,6 +347,67 @@ Media Type irá iforma que o arquivo será exibido por uma tela, enquanto o Medi
 determinar a característica da tela, se ela é uma tela de 5 ou de 60 polegadas
 
 
+21- Como usar Media Features
+Ex:
+<link
+      rel="stylesheet"
+      href="arquivos_css/style_retrado.css"
+      media="screen and (orientation: portrait)"
+    />
+
+OBS: o Media Features é o que está entre parentes dentro de media
+
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Reunindo tudo em um único CSS
+
+22- Para adicionar mais de uma folha de estilo na mesma página do html basta adicoanr o comando 
+"@media screen and (x) {
+      @media screen and (orientation: portrait) {
+        body {
+          background-image: url("../imagens/cev-portrait.jpg");
+          background-position: center bottom;
+        }
+      }
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
