@@ -405,12 +405,17 @@ Grandes telas: acima de 1200px
 */
 
 26 Exemplo prático de Media Queries
-acesse o expplorador de arquivos > programaçõa_git > 04-modulo_html_css > 29-impressora_mq > 04-arquivo
+acesse o explorador de arquivos > programaçõa_git > 04-modulo_html_css > 29-impressora_mq > 04-arquivo
 
 
+<<Fim da Aula>>
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+► Aula:  Avançar: Media Queries para outros dispositivos
 
+27- Como crair um meno retrátil
+acesse o explorador de arquivos > programaçõa_git > 04-modulo_html_css > 29-impressora_mq > 05.2-arquivo
 
 
 
