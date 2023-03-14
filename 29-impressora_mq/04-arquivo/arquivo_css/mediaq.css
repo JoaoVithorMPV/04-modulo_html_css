@@ -1,0 +1,122 @@
+@media print {
+  * {
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  h1 {
+    color: black;
+    text-shadow: none;
+  }
+
+  main {
+    border: 2px solid black;
+  }
+
+  main::after {
+    content: 'Testando o Media Type "print"';
+    font-weight: 200;
+    font-style: italic;
+    text-decoration: overline;
+  }
+
+  #phone {
+    display: none;
+  }
+
+  #tablet {
+    display: none;
+  }
+
+  #print {
+    display: block;
+  }
+
+  #pc {
+    display: none;
+  }
+
+  #tv {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background: url(../../imagens/back-tablet.jpg);
+    background-size: cover;
+  }
+
+  #phone {
+    display: none;
+  }
+
+  #tablet {
+    display: block;
+  }
+
+  #print {
+    display: none;
+  }
+
+  #pc {
+    display: none;
+  }
+
+  #tv {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  body {
+    background: url(../../imagens/back-pc.jpg);
+    background-size: cover;
+  }
+
+  #phone {
+    display: none;
+  }
+
+  #tablet {
+    display: none;
+  }
+
+  #print {
+    display: none;
+  }
+
+  #pc {
+    display: block;
+  }
+
+  #tv {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  body {
+    background: url(../../imagens/back-tv.jpg);
+    background-size: cover;
+  }
+
+  #phone {
+    display: none;
+  }
+
+  #tablet {
+    display: none;
+  }
+
+  #print {
+    display: none;
+  }
+
+  #pc {
+    display: none;
+  }
+
+  #tv {
+    display: block;
+  }
+}
