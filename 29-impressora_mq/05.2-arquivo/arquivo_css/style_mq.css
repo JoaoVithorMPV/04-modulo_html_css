@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+  #burguer {
+    display: none;
+  }
+
+  menu {
+    display: block;
+    text-align: left;
+  }
+
+  menu li {
+    display: inline-block;
+    background: rgba(221, 221, 221, 0.616);
+    border-radius: 5px;
+    color: black;
+  }
+
+  menu li:hover {
+    color: white;
+  }
+}

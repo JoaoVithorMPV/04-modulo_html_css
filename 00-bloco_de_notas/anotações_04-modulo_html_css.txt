@@ -419,20 +419,50 @@ acesse o explorador de arquivos > programaçõa_git > 04-modulo_html_css > 29-im
 
 
 
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Outras Media Queries para o projeto
+
+
+28- Propriedade "float"
+Determina que um elemento deve ser retirado do seu fluxo normal e colocado ao longo do lado direito 
+ou esquerdo do seu containêr
+Ex:
+div#img {
+    float: left;
+    height: 100%;
+    width: 30%;
+    background-position: left center;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+  }
+
+OBS: exemplo completo na pasta 04-modulo_html_css, aquivo projeto_login
 
 
 
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+► Aula: Finalizando projeto tela de login
 
+29- função calc() CSS 
+Permite você executar cálculos quando especificar os valores de propriedades no CSS
+Ex:
+div.campo > input {
+  background-color: #94cfcd;
+  font-size: 1em;
+  width: calc(100% - 45px);
+  height: 100%;
+  border: 0px;
+  border-radius: 8px;
+  padding: 4px;
+  transform: translateY(-10px);
+}
 
-
-
-
-
-
-
-
+OBS: exemplo completo na pasta 04-modulo_html_css, aquivo projeto_login
 
 
 

@@ -6,11 +6,11 @@
 
 body {
   height: 100vh;
-  background-color: gray;
+  background-color: rgb(179, 179, 179);
 }
 
 header {
-  background: gray;
+  background: rgb(99, 99, 99);
   text-align: center;
 }
 
@@ -52,7 +52,6 @@ header a {
 }
 
 main {
-  background: gray;
   margin-top: 10px;
 }
 
